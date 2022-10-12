@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
     private void scanCode() {
 
         ScanOptions scanOptions = new ScanOptions();
-        scanOptions.setPrompt("Flash On");
+        scanOptions.setPrompt("QR코드를 스캔 해주세요");
         //인식시 소리 삑소리 허용
         scanOptions.setBeepEnabled(true);
         //움직임에 따라 스캔코드가 변화 허용
